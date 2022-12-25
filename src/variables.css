@@ -1,0 +1,12 @@
+/* global color variables  */
+html {
+    --primary:#19191b;
+    --border-color:#4a4a4a;
+    --table-body:linear-gradient(180deg, #474747 -50%, #121111 130.04%);
+    --table-head:#262525;
+    --text-primary: #fff;
+    --text-secondary:#4a4a4a;
+    --text-success:rgb(75, 118, 75);
+    --text-table:rgba(255, 255, 255, 0.6);
+  }
+  

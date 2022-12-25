@@ -1,0 +1,57 @@
+.table-container {
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  margin-top: 15px;
+  .table-ctn {
+    .table-head {
+      .table-head-row {
+        background-color: var(--table-head);
+        .table-head-cell {
+          .css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root {
+            color: var(--text-primary);
+          }
+          .Mui-active .MuiTableSortLabel-icon {
+            color: var(--text-success);
+          }
+          padding: 6px;
+          color: var(--text-primary);
+          text-transform: uppercase;
+        }
+      }
+    }
+    .table-body {
+      background: var(--table-body);
+      .table-body-row {
+        border-bottom: 1px solid var(--border-color);
+        &.table-body-row:last-child {
+          border-bottom: 0px !important;
+        }
+        .table-body-cell {
+          padding: 6px;
+          color: var(--text-table);
+          border: 0px;
+          cursor: pointer;
+          &.underline {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 720px) {
+  .table-container {
+    margin-top: 5px;
+    width: 100vw;
+    .table-ctn {
+      .table-body {
+        .table-body-row {
+          .table-body-cell {
+            padding: 4px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
